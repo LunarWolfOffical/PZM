@@ -1,0 +1,27 @@
+module Base {
+
+    imports {
+        Base
+    }
+    
+    item Scone {
+        Type = Normal,
+        DisplayName = "My First Item",
+        Weight = 0.1
+    }
+
+    item SaltyCrackers {
+        DisplayName = "Salty Crackers",
+        DisplayCategory = Food,
+        Type = Food,
+        Weight = 0.05,
+        FoodType = NoExplicit,
+        HungerChange = -10,
+        ThirstChange = 2,
+        Calories = 30,
+        Carbohydrates = 2,
+        Lipids = 2,
+        Proteins = 1
+    }
+
+}
