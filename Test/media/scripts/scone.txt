@@ -1,0 +1,10 @@
+module RRFIRSTMODZZ1 {
+    imports {
+        Base
+    }
+    item Scone {
+        Type = Normal,
+        DisplayName = "My First Item",
+        Weight = 0.1
+    }
+}
