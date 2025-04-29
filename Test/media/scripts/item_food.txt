@@ -12,16 +12,15 @@ module Base {
 
     item SaltyCrackers {
         DisplayName = "Salty Crackers",
-        DisplayCategory = Food,
         Type = Food,
+        DisplayCategory = Food,
         Weight = 0.05,
-        FoodType = NoExplicit,
-        HungerChange = -10,
-        ThirstChange = 2,
+        HungerChange = -10,   // Reduces hunger
+        ThirstChange = 2,     // Increases thirst
         Calories = 30,
         Carbohydrates = 2,
         Lipids = 2,
         Proteins = 1
-    }
-
+    }    
+    
 }
