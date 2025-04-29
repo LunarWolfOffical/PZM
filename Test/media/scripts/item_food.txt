@@ -4,23 +4,10 @@ module Base {
         Base
     }
     
-    item Scone {
+    item Salty_Crackers {
         Type = Normal,
-        DisplayName = "My First Item",
-        Weight = 0.1
-    }
-
-    item SaltyCrackers {
         DisplayName = "Salty Crackers",
-        Type = Food,
-        DisplayCategory = Food,
-        Weight = 0.05,
-        HungerChange = -10,   // Reduces hunger
-        ThirstChange = 2,     // Increases thirst
-        Calories = 30,
-        Carbohydrates = 2,
-        Lipids = 2,
-        Proteins = 1
-    }    
+        Weight = 0.05
+    }
     
 }
